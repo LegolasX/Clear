@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A0BB2E851DF5022D00B9E0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB2E841DF5022D00B9E0B0 /* AppDelegate.swift */; };
-		A0BB2E871DF5022D00B9E0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB2E861DF5022D00B9E0B0 /* ViewController.swift */; };
 		A0BB2E8A1DF5022D00B9E0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BB2E881DF5022D00B9E0B0 /* Main.storyboard */; };
 		A0BB2E8D1DF5022D00B9E0B0 /* Claer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0BB2E8B1DF5022D00B9E0B0 /* Claer.xcdatamodeld */; };
 		A0BB2E8F1DF5022D00B9E0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BB2E8E1DF5022D00B9E0B0 /* Assets.xcassets */; };
 		A0BB2E921DF5022D00B9E0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BB2E901DF5022D00B9E0B0 /* LaunchScreen.storyboard */; };
+		A0BB2E9A1DF5054600B9E0B0 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB2E991DF5054600B9E0B0 /* Setting.swift */; };
+		A0D262361DF531CB0001335A /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D262351DF531CB0001335A /* SettingTableViewController.swift */; };
+		A0D262381DF532910001335A /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D262371DF532910001335A /* BasicTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0BB2E811DF5022D00B9E0B0 /* Claer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Claer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BB2E841DF5022D00B9E0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0BB2E861DF5022D00B9E0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0BB2E891DF5022D00B9E0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BB2E8C1DF5022D00B9E0B0 /* Claer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Claer.xcdatamodel; sourceTree = "<group>"; };
 		A0BB2E8E1DF5022D00B9E0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BB2E911DF5022D00B9E0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BB2E931DF5022D00B9E0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BB2E991DF5054600B9E0B0 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		A0D262351DF531CB0001335A /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		A0D262371DF532910001335A /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				A0BB2E841DF5022D00B9E0B0 /* AppDelegate.swift */,
-				A0BB2E861DF5022D00B9E0B0 /* ViewController.swift */,
 				A0BB2E881DF5022D00B9E0B0 /* Main.storyboard */,
+				A0D262371DF532910001335A /* BasicTableViewCell.swift */,
+				A0D262351DF531CB0001335A /* SettingTableViewController.swift */,
+				A0BB2E991DF5054600B9E0B0 /* Setting.swift */,
 				A0BB2E8E1DF5022D00B9E0B0 /* Assets.xcassets */,
 				A0BB2E901DF5022D00B9E0B0 /* LaunchScreen.storyboard */,
 				A0BB2E931DF5022D00B9E0B0 /* Info.plist */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D262361DF531CB0001335A /* SettingTableViewController.swift in Sources */,
 				A0BB2E8D1DF5022D00B9E0B0 /* Claer.xcdatamodeld in Sources */,
-				A0BB2E871DF5022D00B9E0B0 /* ViewController.swift in Sources */,
+				A0BB2E9A1DF5054600B9E0B0 /* Setting.swift in Sources */,
 				A0BB2E851DF5022D00B9E0B0 /* AppDelegate.swift in Sources */,
+				A0D262381DF532910001335A /* BasicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				A0BB2E981DF5022D00B9E0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
